@@ -1,1 +1,2 @@
 #テスト
+print("Hello World")

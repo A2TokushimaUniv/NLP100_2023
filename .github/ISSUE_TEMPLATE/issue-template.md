@@ -11,7 +11,7 @@ assignees: ''
 
 ## 目的
 
-## Task
+## 必要な知識
 - [ ] XXXX
 - [ ] XXXX
 - [ ] XXXX

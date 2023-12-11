@@ -3,7 +3,7 @@ str2 = str1.replace(',','')
 str3 = str2.replace('.','')
 str4 = str3.split()
 
-for i in range(0,15):
+for i in range(0,len(str4)):
     str = len(str4[i])
     str4[i] = str
 print(str4)

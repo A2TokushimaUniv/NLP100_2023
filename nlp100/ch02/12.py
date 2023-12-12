@@ -2,7 +2,7 @@ with open("./popular-names.txt","r") as f:
     col1 = ""
     col2 = ""
     for lines in f.readlines():
-        col = lines.split("\t")#よくわからんところ
+        col = lines.split("\t")
         col1 += col[0]
         col1 += "\n"
 

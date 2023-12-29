@@ -34,4 +34,3 @@ def test__2列目をcol2_txtに保存():
     assert col_text == result.stdout
 
     os.remove(out_file_path)
-test_1列目をcol1_txtに保存()

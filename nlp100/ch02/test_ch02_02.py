@@ -2,6 +2,7 @@ import subprocess
 import pandas as pd
 import os
 
+
 def test_1列目をcol1_txtに保存():
     file_path = "./nlp100/ch02/popular-names.txt"
     out_file_path = "./nlp100/ch02/col1.txt"
@@ -31,6 +32,7 @@ def test__2列目をcol2_txtに保存():
 
     command = f"cut -f 2 {file_path}"
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
+
     assert col_text == result.stdout
 
     os.remove(out_file_path)

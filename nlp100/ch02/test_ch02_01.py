@@ -16,6 +16,7 @@ def test_タブをスペースに置換():
 
     command = f"expand -t 1 {file_path}"
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
+
     assert csv_text == result.stdout
 
     os.remove(out_file_path)

@@ -31,6 +31,7 @@ def test_col1_txtとcol2_txtをマージ():
 
     command = f"paste {col1_file_path} {col2_file_path}"
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
+
     assert col_1_2_text == result.stdout
 
     shutil.rmtree(out_folder_path)
